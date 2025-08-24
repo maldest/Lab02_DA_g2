@@ -24,3 +24,144 @@ header .logo {
   font-size: 1.2rem;
   color: white;
 }
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #807ca0;
+}
+
+
+
+.banner {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('Rectangle.png') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.banner .btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ff6f61;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.banner .btn:hover {
+  background: #e85d50;
+}
+
+.informacion {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.informacion h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.grid-informacion {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.grid-informacion div {
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.inscripcion {
+  background: #f7d9d9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.inscripcion h2 {
+  margin-bottom: 20px;
+}
+
+.inscripcion form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.inscripcion input, 
+.inscripcion button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.inscripcion input {
+  border: 1px solid #ccc;
+}
+
+.inscripcion button {
+  background: #88bdbc;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.inscripcion button:hover {
+  background: #6da3a3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #88bdbc;
+  color: white;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .grid-informacion {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
