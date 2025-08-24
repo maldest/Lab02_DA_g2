@@ -16,3 +16,18 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+
+header h1 {
+    font-size: 2rem;
+    color: #5d576b; /* Gris violáceo pastel */
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
