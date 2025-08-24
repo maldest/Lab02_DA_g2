@@ -71,17 +71,26 @@ header nav ul li a:hover {
 
 
 .banner .btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background: #ff6f61;
+  background: linear-gradient(135deg, #2f318d6b, #62397e);
   color: white;
-  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 16px;
   text-decoration: none;
-  transition: background 0.3s;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .banner .btn:hover {
-  background: #e85d50;
+    background: linear-gradient(135deg, #62397e, #2f318d6b);
+    transform: scale(1.08);
+    text-decoration: underline;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
 .informacion {
