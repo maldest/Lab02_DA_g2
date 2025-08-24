@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdf6f0; /* Fondo pastel claro */
+    background-color: #fdf6f0;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #cfe0e8; /* Azul pastel */
+    background-color: #cfe0e8;
     padding: 20px;
     text-align: center;
 }
@@ -20,7 +20,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    color: #5d576b; /* Gris violáceo pastel */
+    color: #5d576b;
     margin-bottom: 10px;
 }
 
