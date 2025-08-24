@@ -10,3 +10,17 @@ body {
   background-color: #fdfdfd;
   color: #333;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #88bdbc;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
