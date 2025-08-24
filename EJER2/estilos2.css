@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: #88bdbc;
+  background: #1f4751;
 }
 
 header .logo {
@@ -39,7 +39,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #807ca0;
+    text-decoration: underline;
 }
 
 
