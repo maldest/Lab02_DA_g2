@@ -19,7 +19,7 @@ header {
 
 
 header h1 {
-    font-size: 2rem;
+    font-size: 32px;
     color: #5d576b;
     margin-bottom: 10px;
 }
@@ -37,4 +37,35 @@ nav ul li a {
     color: #5d576b;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #33a7bb;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+        height: 100%;
+
+}
+
+main h2 {
+    color: #8e9aaf; /* Azul grisáceo pastel */
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 16px;
+    color: #444;
+}
+
+
+footer {
+    background-color: #cfe0e8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #5d576b;
 }
