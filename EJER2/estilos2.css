@@ -116,13 +116,14 @@ header nav ul li a:hover {
 }
 
 .inscripcion {
-  background: #f7d9d9;
+  background: #1f4751;
   padding: 60px 20px;
   text-align: center;
 }
 
 .inscripcion h2 {
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .inscripcion form {
